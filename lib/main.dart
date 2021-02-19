@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fonibo_task/views/ui/task/task_view.dart';
-import 'package:fonibo_task/views/utils/constants.dart';
+import 'package:fonibo_task/views/task_view.dart';
+import 'package:fonibo_task/constants.dart';
 
 void main() => runApp(MyApp());
 

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:fonibo_task/views/utils/constants.dart';
+import 'package:fonibo_task/constants.dart';
 
 class CustomList extends StatefulWidget {
-  final Color color;
-  final String title;
-  final String createdAt;
+  Color color;
+  String title;
+  String createdAt;
   bool isSelected;
-  final Function onPressed;
+  Function onPressed;
   CustomList(
       {Key key,
       this.color = Constants.colorBlue,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fonibo_task/models/task_model.dart';
-import 'package:fonibo_task/views/ui/task/task_controller.dart';
-import 'package:fonibo_task/views/utils/constants.dart';
-import 'package:fonibo_task/views/utils/widgets/custom_list.dart';
+import 'package:fonibo_task/controllers/task_controller.dart';
+import 'package:fonibo_task/constants.dart';
+import 'package:fonibo_task/widgets/custom_list.dart';
 import 'package:intl/intl.dart';
 
 class TaskView extends StatefulWidget {
